@@ -12,3 +12,5 @@ We investigated how physical frailty relates to the 251 metabolomic biomarkers u
 We performed bidirectional two-sample MR analyses to investigate the bidirectional causal association between physical frailty and MASLD using the ‘TwoSampleMR’ package in R
 
 We used the ‘mediation’ package in R to examine the extent to which the metabolomic markers can explain the association between physical frailty and the risk of MASLD. For each of the metabolomic biomarkers showing significant association with both frailty and MASLD risk, we established a standard three-variable path model. In line with previous studies, the frailty-metabolite association was examined using multiple linear regression, while the frailty-MASLD and metabolite-MASLD association was examined using survival regression. The significance of mediating effects was determined using 5000 bootstrap iterations.
+
+All analyses were conducted in R 4.3.3 and adjusted for the same set of covariates.
